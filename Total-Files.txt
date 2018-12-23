@@ -1,0 +1,41 @@
+Area of circle-
+Perimeter of circle-
+area of rectangle-
+perimeter of rectangle-
+even odd number-
+largest and smallest number in array-
+hello world example-
+java class example-
+FACTORIAL-
+recursive factorial-
+reverse number in java-
+swap numbers in java-
+swap without using third number-
+find result = (a>b)?a:b    if a = -1, b = -2-
+print pattern-
+calculating salary with bonus-
+by selecting day print 'welcome back to working day'-
+result grades with marks-
+sum of odd numbers in the range a & b-
+quadratic equation solving-
+area of rectangle using constructor-
+area and volume of a given box-
+bank account-
+function overloading-
+use of BufferedReader-
+example of class-
+nested class with for loop-
+nested class with constructor-
+nested class-
+polymorphism(overloading) / (overriding)-
+parameterized constructor-
+example of polymorphism-
+example of type casting-
+conversion of decimal to binary-
+implementing bubble  sort-
+check the frequency in 2D array
+check number is magic or not
+check string is a palindrome or not-
+inheritance in java-
+prime number-
+test interface-

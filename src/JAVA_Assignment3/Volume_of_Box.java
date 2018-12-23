@@ -37,8 +37,8 @@ public class Volume_of_Box
         Volume box2 = new Volume(12, 85.3f, 96);
 
         System.out.println("The volume of Box 1 " + box1.volume());
-        System.out.println("The volume of Box 1 " + box1.area());
+        System.out.println("The area of Box 1 " + box1.area());
         System.out.println("The volume of Box 2 " + box2.volume());
-        System.out.println("The volume of Box 2 " + box2.area());
+        System.out.println("The area of Box 2 " + box2.area());
     }
 }

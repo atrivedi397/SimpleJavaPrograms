@@ -9,42 +9,36 @@ class Accounts
     private boolean a_c_type;
     private double balance;
 
-    Accounts()
-    {
+    Accounts() {
         name = "N/A";
         a_c_number = 0;
         a_c_type = false;
         balance = 0;
     }
 
-    Accounts(String p_name, int p_a_c_number, boolean p_a_c_type, double p_balance)
-    {
+    Accounts(String p_name, int p_a_c_number, boolean p_a_c_type, double p_balance) {
         name = p_name;
         a_c_number = p_a_c_number;
         a_c_type = p_a_c_type;
         balance = p_balance;
     }
 
-    boolean deposit(int money)
-    {
+    boolean deposit(int money) {
         if(this.balance <= 50)
             return false;
-        else
-        {
+        else {
             this.balance = this.balance + money;
             return true;
         }
     }
 
-    void get_name_balance()
-    {
+    void get_name_balance() {
         System.out.println("The user name is " + this.name +"\nThe A/C Number is "+ this.a_c_number+ ".\nThe balance is " + this.balance);
     }
 }
 
 public class Account_Class {
-    public static void main(String args[]) throws IOException
-    {
+    public static void main(String args[]) throws IOException {
         Accounts first_account = new Accounts();
         first_account.get_name_balance();
 
